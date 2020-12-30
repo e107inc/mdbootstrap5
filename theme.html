@@ -1,0 +1,52 @@
+<body id="page-top" class="{LAYOUT_ID}" {BODY_ONLOAD} >
+
+	{---MODAL---}
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<div class="container">
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			{NAVIGATION=main}  
+		  </div>
+		</div>
+	  </nav>
+ 
+	<!--- Optional custom header template controlled by theme_shortcodes -->
+	{---HEADER---}
+	
+	<!-- Page Content -->
+	{---LAYOUT---}
+ 
+	<footer class="page-footer bg-primary text-white text-center text-lg-start pt-4">
+		{SETSTYLE=footer}
+		<div class="container pt-2">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+					{MENUAREA=10}
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+					{MENUAREA=11}
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+					{MENUAREA=12}
+				</div>
+			</div>
+			<hr class="my-2">
+			{SETSTYLE=footer-small}
+			<div class="row  font-small ">
+				<div class="col-md-7 mt-md-0 my-2 text-uppercase">
+					{MENUAREA=21} 
+				</div>
+				<div class="col-md-5 mb-md-0 my-2">
+					{MENUAREA=22}
+				</div>
+			</div> 
+		</div>
+		<div class="text-center p-3 footer-copyright ">{SITEDISCLAIMER}
+		</div>
+	</footer>
+</body>
